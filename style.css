@@ -1,0 +1,59 @@
+ /* Style du conteneur principal */
+.container {
+    width: 100%;
+    background-color: #FFC0CB;
+    padding: 20px;
+    box-sizing: border-box;
+    overflow: hidden; /* Pour éviter que les éléments flottants n'affectent la mise en page */
+}
+
+/* Style de la première div (flottée à gauche) */
+.left {
+    width: 45%; /* Largeur de la première div */
+    float: left; /* Flotte à gauche */
+    padding: 20px;
+    margin-right: 10px;
+    box-sizing: border-box;
+    text-align: center;
+}
+
+
+.container1 {
+    background-color: yellow;
+    padding: 20px;
+    box-sizing: border-box;
+    overflow: hidden; /* Pour éviter que les éléments flottants n'affectent la mise en page */
+    clear: both;
+}
+
+
+/* Style de la deuxième div (flottée à droite) */
+.right {
+    width: 45%; /* Largeur de la deuxième div */
+    float: left; /* Flotte à gauche, à côté de l'autre div */
+    text-align: center;
+}
+
+.container2 {
+    width: 100%;
+    background-color: yellow;
+    padding: 20px;
+    box-sizing: border-box;
+    overflow: hidden; /* Pour éviter que les éléments flottants n'affectent la mise en page */
+}
+
+body{ 
+     /* background-image: url('PROPRE.jpg');*/
+}
+
+.block1{
+    float: left;
+}
+.block2{
+    float: right;
+}
+
+img{
+    width: 200px;
+    margin: 10px;
+}
